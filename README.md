@@ -14,6 +14,10 @@
   <a href="https://github.com/monterrosag18/portafolio">Portafolio</a>
 </p>
 
+<p align="center">
+  <img src="./assets/tech-tree.svg" alt="Arbol de progreso tecnologico inspirado en juegos de estrategia" />
+</p>
+
 ---
 
 ## Sobre mi

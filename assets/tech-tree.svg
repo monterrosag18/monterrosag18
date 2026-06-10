@@ -1,0 +1,164 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ruta de especializacion de Carlos Monterrosa</title>
+  <desc id="desc">Animacion estilo arbol tecnologico de estrategia con C# y .NET como base principal.</desc>
+  <style>
+    .bg { fill: #111827; }
+    .panel { fill: #1f2937; stroke: #b0894f; stroke-width: 2; }
+    .panel-soft { fill: #182233; stroke: #6b7280; stroke-width: 1.2; }
+    .title { fill: #f8fafc; font: 700 27px Georgia, serif; letter-spacing: 0; }
+    .subtitle { fill: #d6c08d; font: 600 14px Verdana, sans-serif; letter-spacing: 0; }
+    .small { fill: #cbd5e1; font: 600 12px Verdana, sans-serif; letter-spacing: 0; }
+    .node-title { fill: #fff7ed; font: 700 17px Verdana, sans-serif; letter-spacing: 0; }
+    .node-sub { fill: #cbd5e1; font: 500 11px Verdana, sans-serif; letter-spacing: 0; }
+    .path-base { stroke: #6b7280; stroke-width: 5; stroke-linecap: round; opacity: .35; }
+    .path-glow { stroke: #f59e0b; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 16 22; filter: url(#glow); }
+    .node { fill: #263347; stroke: #b0894f; stroke-width: 2.2; }
+    .core { fill: #3b2f1f; stroke: #f59e0b; stroke-width: 3; }
+    .coin { fill: #fbbf24; stroke: #92400e; stroke-width: 2; }
+    .flag { fill: #7c2d12; stroke: #fbbf24; stroke-width: 1.4; }
+    .bar-bg { fill: #0f172a; stroke: #475569; stroke-width: 1; }
+    .bar-fill { fill: #22c55e; }
+    .pulse {
+      animation: pulse 2.8s ease-in-out infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .float {
+      animation: float 3.5s ease-in-out infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .blink { animation: blink 1.6s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: .82; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.035); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: .35; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <path id="route" d="M205 185 C300 112 390 110 500 120 C610 130 695 90 805 86 C724 166 646 204 540 214 C432 224 345 230 236 275"/>
+  </defs>
+
+  <rect class="bg" width="1000" height="360" rx="20"/>
+  <rect x="18" y="18" width="964" height="324" rx="18" fill="url(#parchment)" stroke="#b0894f" stroke-width="2"/>
+
+  <g opacity=".32">
+    <path d="M38 318H962" stroke="#b0894f" stroke-width="1"/>
+    <path d="M70 45H930" stroke="#b0894f" stroke-width="1"/>
+    <circle cx="84" cy="84" r="28" stroke="#b0894f"/>
+    <circle cx="916" cy="280" r="34" stroke="#b0894f"/>
+  </g>
+
+  <text x="500" y="58" text-anchor="middle" class="title">Arbol de Progreso Tecnologico</text>
+  <text x="500" y="82" text-anchor="middle" class="subtitle">C#/.NET como civilizacion principal - estrategia, practica y mejora continua</text>
+
+  <g transform="translate(70 102)">
+    <rect class="panel-soft" x="0" y="0" width="190" height="40" rx="8"/>
+    <circle class="coin blink" cx="22" cy="20" r="9"/>
+    <text x="42" y="25" class="small">FOCO: BACKEND</text>
+  </g>
+  <g transform="translate(405 102)">
+    <rect class="panel-soft" x="0" y="0" width="190" height="40" rx="8"/>
+    <circle class="coin blink" cx="22" cy="20" r="9" style="animation-delay:.35s"/>
+    <text x="42" y="25" class="small">XP: APRENDIZAJE</text>
+  </g>
+  <g transform="translate(720 102)">
+    <rect class="panel-soft" x="0" y="0" width="210" height="40" rx="8"/>
+    <circle class="coin blink" cx="22" cy="20" r="9" style="animation-delay:.7s"/>
+    <text x="42" y="25" class="small">MISION: NUNCA RENDIRSE</text>
+  </g>
+
+  <path class="path-base" d="M205 185 C300 112 390 110 500 120 C610 130 695 90 805 86"/>
+  <path class="path-base" d="M205 185 C306 218 390 225 500 215 C610 205 694 246 805 266"/>
+  <path class="path-base" d="M205 185 C302 172 393 174 500 172 C612 170 698 169 805 172"/>
+
+  <path class="path-glow" d="M205 185 C300 112 390 110 500 120 C610 130 695 90 805 86">
+    <animate attributeName="stroke-dashoffset" values="0;-76" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+  <path class="path-glow" d="M205 185 C306 218 390 225 500 215 C610 205 694 246 805 266" opacity=".78">
+    <animate attributeName="stroke-dashoffset" values="0;-76" dur="4.3s" repeatCount="indefinite"/>
+  </path>
+  <path class="path-glow" d="M205 185 C302 172 393 174 500 172 C612 170 698 169 805 172" opacity=".62">
+    <animate attributeName="stroke-dashoffset" values="0;-76" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <g class="pulse">
+    <rect class="core" x="90" y="150" width="230" height="72" rx="12"/>
+    <text x="205" y="180" text-anchor="middle" class="node-title">C# / .NET</text>
+    <text x="205" y="201" text-anchor="middle" class="node-sub">base principal de especializacion</text>
+  </g>
+
+  <g class="float" style="animation-delay:.2s">
+    <rect class="node" x="405" y="86" width="190" height="62" rx="10"/>
+    <text x="500" y="113" text-anchor="middle" class="node-title">ASP.NET Core</text>
+    <text x="500" y="132" text-anchor="middle" class="node-sub">APIs y backend web</text>
+  </g>
+
+  <g class="float" style="animation-delay:.55s">
+    <rect class="node" x="710" y="52" width="190" height="62" rx="10"/>
+    <text x="805" y="79" text-anchor="middle" class="node-title">APIs REST</text>
+    <text x="805" y="98" text-anchor="middle" class="node-sub">servicios claros y escalables</text>
+  </g>
+
+  <g class="float" style="animation-delay:.85s">
+    <rect class="node" x="405" y="142" width="190" height="62" rx="10"/>
+    <text x="500" y="169" text-anchor="middle" class="node-title">Entity Framework</text>
+    <text x="500" y="188" text-anchor="middle" class="node-sub">datos, entidades y relaciones</text>
+  </g>
+
+  <g class="float" style="animation-delay:1.1s">
+    <rect class="node" x="710" y="142" width="190" height="62" rx="10"/>
+    <text x="805" y="169" text-anchor="middle" class="node-title">SQL</text>
+    <text x="805" y="188" text-anchor="middle" class="node-sub">consultas y modelado</text>
+  </g>
+
+  <g class="float" style="animation-delay:1.35s">
+    <rect class="node" x="405" y="216" width="190" height="62" rx="10"/>
+    <text x="500" y="243" text-anchor="middle" class="node-title">Unity</text>
+    <text x="500" y="262" text-anchor="middle" class="node-sub">logica y experiencias interactivas</text>
+  </g>
+
+  <g class="float" style="animation-delay:1.65s">
+    <rect class="node" x="710" y="236" width="190" height="62" rx="10"/>
+    <text x="805" y="263" text-anchor="middle" class="node-title">Gamificacion</text>
+    <text x="805" y="282" text-anchor="middle" class="node-sub">progreso, retos y estrategia</text>
+  </g>
+
+  <circle r="7" fill="#fef3c7" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#route"/>
+    </animateMotion>
+  </circle>
+
+  <g transform="translate(88 254)">
+    <rect class="bar-bg" x="0" y="0" width="220" height="16" rx="8"/>
+    <rect class="bar-fill" x="2" y="2" width="20" height="12" rx="6">
+      <animate attributeName="width" values="20;168;208;168;20" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="110" y="38" text-anchor="middle" class="small">progreso desbloqueando experiencia real</text>
+  </g>
+
+  <g transform="translate(912 58)">
+    <path class="flag" d="M0 0H34L26 14L34 28H0Z"/>
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#fbbf24" stroke-width="3"/>
+  </g>
+</svg>
