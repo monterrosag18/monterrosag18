@@ -1,0 +1,120 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub focus C# .NET</title>
+  <desc id="desc">Panel animado de enfoque profesional en GitHub con C# .NET, ASP.NET Core, Entity Framework, SQL y Unity.</desc>
+  <style>
+    .bg { fill: #0b1220; }
+    .frame { fill: #141c2e; stroke: #b0894f; stroke-width: 2; }
+    .panel { fill: #1f2937; stroke: #475569; stroke-width: 1.4; }
+    .gold { fill: #fbbf24; }
+    .gold-stroke { stroke: #fbbf24; }
+    .purple { fill: #512bd4; }
+    .green { fill: #22c55e; }
+    .blue { fill: #38bdf8; }
+    .title { fill: #f8fafc; font: 700 27px Georgia, serif; letter-spacing: 0; }
+    .subtitle { fill: #d6c08d; font: 600 14px Verdana, sans-serif; letter-spacing: 0; }
+    .label { fill: #f8fafc; font: 700 16px Verdana, sans-serif; letter-spacing: 0; }
+    .text { fill: #cbd5e1; font: 600 12px Verdana, sans-serif; letter-spacing: 0; }
+    .small { fill: #94a3b8; font: 600 11px Verdana, sans-serif; letter-spacing: 0; }
+    .line { stroke: #64748b; stroke-width: 4; stroke-linecap: round; opacity: .45; }
+    .active-line { stroke: #fbbf24; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 12 18; filter: url(#glow); }
+    .pulse {
+      animation: pulse 2.6s ease-in-out infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .float {
+      animation: float 3.2s ease-in-out infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .blink { animation: blink 1.8s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: .82; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.035); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: .42; }
+      50% { opacity: 1; }
+    }
+  </style>
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#261c14"/>
+      <stop offset=".5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <path id="mission-route" d="M185 158 C300 82 420 82 510 138 C612 202 718 210 835 136"/>
+  </defs>
+
+  <rect class="bg" width="1000" height="280" rx="18"/>
+  <rect class="frame" x="18" y="18" width="964" height="244" rx="16" fill="url(#card)"/>
+
+  <text x="500" y="54" text-anchor="middle" class="title">GitHub Mission Board</text>
+  <text x="500" y="78" text-anchor="middle" class="subtitle">Especializacion visible: C#/.NET, backend, datos y experiencias interactivas</text>
+
+  <path class="line" d="M185 158 C300 82 420 82 510 138 C612 202 718 210 835 136"/>
+  <path class="active-line" d="M185 158 C300 82 420 82 510 138 C612 202 718 210 835 136">
+    <animate attributeName="stroke-dashoffset" values="0;-90" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <g class="pulse">
+    <rect x="72" y="116" width="226" height="84" rx="12" fill="#2d2440" stroke="#8b5cf6" stroke-width="2.5"/>
+    <circle cx="104" cy="144" r="15" class="purple"/>
+    <text x="186" y="145" text-anchor="middle" class="label">C# / .NET</text>
+    <text x="186" y="166" text-anchor="middle" class="text">eje principal de crecimiento</text>
+    <text x="186" y="184" text-anchor="middle" class="small">backend, POO y logica de negocio</text>
+  </g>
+
+  <g class="float" style="animation-delay:.2s">
+    <rect class="panel" x="394" y="96" width="230" height="58" rx="10"/>
+    <circle cx="424" cy="125" r="10" class="gold blink"/>
+    <text x="510" y="121" text-anchor="middle" class="label">ASP.NET Core</text>
+    <text x="510" y="140" text-anchor="middle" class="text">APIs REST y servicios web</text>
+  </g>
+
+  <g class="float" style="animation-delay:.55s">
+    <rect class="panel" x="394" y="166" width="230" height="58" rx="10"/>
+    <circle cx="424" cy="195" r="10" class="green blink" style="animation-delay:.35s"/>
+    <text x="510" y="191" text-anchor="middle" class="label">Entity Framework</text>
+    <text x="510" y="210" text-anchor="middle" class="text">datos, entidades y relaciones</text>
+  </g>
+
+  <g class="float" style="animation-delay:.9s">
+    <rect class="panel" x="704" y="94" width="230" height="58" rx="10"/>
+    <circle cx="734" cy="123" r="10" class="blue blink" style="animation-delay:.7s"/>
+    <text x="820" y="119" text-anchor="middle" class="label">SQL</text>
+    <text x="820" y="138" text-anchor="middle" class="text">modelado y consultas</text>
+  </g>
+
+  <g class="float" style="animation-delay:1.2s">
+    <rect class="panel" x="704" y="166" width="230" height="58" rx="10"/>
+    <circle cx="734" cy="195" r="10" class="gold blink" style="animation-delay:1s"/>
+    <text x="820" y="191" text-anchor="middle" class="label">Unity</text>
+    <text x="820" y="210" text-anchor="middle" class="text">logica interactiva y gamificacion</text>
+  </g>
+
+  <circle r="7" fill="#fef3c7" filter="url(#glow)">
+    <animateMotion dur="6.2s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#mission-route"/>
+    </animateMotion>
+  </circle>
+
+  <g transform="translate(72 224)">
+    <rect x="0" y="0" width="862" height="16" rx="8" fill="#0f172a" stroke="#475569"/>
+    <rect x="2" y="2" width="36" height="12" rx="6" fill="#22c55e">
+      <animate attributeName="width" values="36;420;760;860;36" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="431" y="-8" text-anchor="middle" class="small">Repositorios, documentacion y practica constante para ganar experiencia real</text>
+  </g>
+</svg>
