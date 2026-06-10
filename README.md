@@ -1,7 +1,7 @@
 <h1 align="center">Carlos Andres Monterrosa Gallego</h1>
 
 <p align="center">
-  Desarrollador en formacion | Web, backend y experiencias interactivas
+  Desarrollador en formacion | C#/.NET, backend y experiencias interactivas
 </p>
 
 <p align="center">
@@ -26,24 +26,35 @@ Mi esencia tambien viene de los videojuegos de estrategia, especialmente Age of 
 
 ## Enfoque profesional
 
+- Especializacion en C#/.NET para backend, APIs y logica de negocio.
+- Practica con frameworks del ecosistema .NET como ASP.NET Core y Entity Framework.
+- Bases de datos SQL, modelado de datos y consultas estructuradas.
 - Desarrollo web con HTML, CSS, JavaScript y buenas bases de estructura visual.
 - Construccion de interfaces responsivas y proyectos orientados a experiencia de usuario.
-- Practica en backend, bases de datos y logica de negocio con C# .NET y SQL.
 - Interes en videojuegos, gamificacion, Unity y experiencias interactivas.
 - Busco una oportunidad para ganar experiencia real, aportar con compromiso y seguir creciendo como desarrollador.
 
 ## Tecnologias
 
 <p>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/C%23%20%2F%20.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C# / .NET" />
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+  <img src="https://img.shields.io/badge/Entity%20Framework-68217A?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
+
+## Ruta de especializacion
+
+| Base | Backend | Datos | Interactividad |
+| --- | --- | --- | --- |
+| C# | ASP.NET Core | SQL | Unity |
+| Programacion orientada a objetos | APIs REST | Modelado de datos | Logica de juego |
+| Buenas practicas | Entity Framework | Consultas y relaciones | Sistemas y mecanicas |
 
 ## Proyectos destacados
 
@@ -55,7 +66,8 @@ Mi esencia tambien viene de los videojuegos de estrategia, especialmente Age of 
 
 ## Actualmente fortaleciendo
 
-- C# .NET para desarrollo backend.
+- C#/.NET para desarrollo backend.
+- ASP.NET Core, Entity Framework y construccion de APIs.
 - SQL y modelado de datos.
 - JavaScript aplicado a interfaces y logica de cliente.
 - Unity para experiencias interactivas y proyectos relacionados con videojuegos.
